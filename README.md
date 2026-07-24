@@ -13,6 +13,13 @@ agent-memory-eval --offline          # fake agent + hashing retriever, no keys
 pytest -q                            # offline tests — no keys, no network
 ```
 
+
+## Architecture
+
+![architecture](docs/assets/architecture.png)
+
+*Interactive/exportable version: [`docs/assets/architecture.html`](docs/assets/architecture.html).*
+
 ## The strategies
 
 The history is 8 short "sessions" of mostly chatter, with specific facts planted in particular
